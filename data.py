@@ -1,6 +1,7 @@
 BASE_URL = 'https://qa-scooter.praktikum-services.ru/api/v1'
 CREATE_COURIER_URL = f'{BASE_URL}/courier'
 LOGIN_COURIER_URL = f'{BASE_URL}/courier/login'
+DELETE_COURIER_URL = f'{BASE_URL}/courier/:id'
 ORDER_URL = f'{BASE_URL}/orders'
 
 COURIER_NULL_DATA_SETS = [{"login": "mariahhhvvvfgb111", "password": "1234", "firstName": "Мари"}]
